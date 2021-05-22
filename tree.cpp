@@ -6,9 +6,10 @@ int main()
 int i,j;
 int  no,abc;
 char last;
- cout<<"Enter The Value 30 For Perfact Chrismas Treen\n\n ";
- cin>>no;
- cout<<"\n";
+//  cout<<"Enter The Value 30 For Perfact Chrismas Treen\n\n ";
+//  cin>>no;
+//  cout<<"\n";
+no=30;
  do //Do-While Loop Start From Here
  { 
   abc=no/4;
