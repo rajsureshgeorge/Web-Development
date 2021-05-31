@@ -1,0 +1,47 @@
+h1 {
+    color: aquamarine;
+    font-size: smaller;
+}
+form{
+    color: coral;
+}
+input{
+    color: darkviolet;
+}
+p{
+    color: midnightblue;
+/* background-color: palegreen; */
+}
+button{
+    border-color: purple;
+    color: aquamarine;
+}
+#para1{
+    color: aquamarine;
+}
+#para2{
+    color: cadetblue;
+}
+div{
+    width: 293px;
+height: 257px;
+background-color: rgb(58, 22, 22);
+
+   
+}
+.colour{
+    color: white;
+}
+
+.div1{
+    width: 550px;
+    height: 550px;
+    background-color: springgreen;
+    padding-top: 250px;
+}
+.div2{
+    width: 225px;
+    height: 225px;
+    background-color: yellow;
+    margin-left: 225px;
+}

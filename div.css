@@ -1,0 +1,36 @@
+.outerdiv{
+    width: 500px;
+height: 450px;
+    background-color: yellow;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+.inner-div1{
+    width:40%;
+    height:40%;
+    background-color: tomato;
+    float: left;
+    margin: 05px;
+}
+.inner-div2{
+    width: 40%;
+    height:40%;
+    float: left;
+    margin: 5px;
+    background-color:slateblue;
+}
+.inner-div3{
+    width: 40%;
+    height:40%;
+    float:left;
+    margin: 5px;
+    background-color:rgb(81, 255, 0);
+}
+.inner-div4{
+    width: 40%;
+    height:40%;
+    float: left;
+    margin: 5px;
+    background-color:rgb(234, 0, 255);
+}

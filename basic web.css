@@ -1,0 +1,29 @@
+.header{
+    width: 100%;
+    background: tomato;
+    height: 150px;
+}
+.content{
+    height:400px;
+
+}
+.left-side{
+    width: 20%;
+    float: left;
+    height: 500px;
+    background: lightcoral;
+}
+.right-side{
+    width: 80%;
+    float: left;
+    height: 500px;
+    background:yellowgreen
+}
+.footer{
+    height: 150px;
+    width: 100%;
+    background: teal;
+}
+body{
+    margin: 0px;
+}
