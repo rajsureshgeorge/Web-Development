@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#signupform").validate({
+    rules:{
+            firstname:{
+            required:true,
+            minlength:4
+        }
+    }
+    })
+})

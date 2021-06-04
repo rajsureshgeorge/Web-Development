@@ -80,8 +80,12 @@ body{
     padding-left:  10%;
 
 }
-input{
+.input{
     border-radius: 5px;
     height: 30px;
     
+}
+.mail{
+    border-radius: 5px;
+    height: 30px;
 }

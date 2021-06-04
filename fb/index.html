@@ -42,19 +42,21 @@
         <div class="rightsection">
             <h1 class="create">Create Account</h1>
             <p class="para">It's Quick and Easy</p>
+            <form action="" class="signupform">
             <table>
                 <tr>
-                    <td> <input type="text" name="firstname" id="firstname" placeholder="Firstname"></td>
-                    <td><input type="text" name="surname" id="surname" placeholder="Surname"></td>
+                    <td> <input type="text" class="input" name="firstname" id="firstname" placeholder="Firstname" ></td>
+                    <td><input type="text" class="input" name="surname" id="surname" placeholder="Surname"></td>
                 </tr>
                 <tr>
-                    <td><input type="email" name="mailid" id="mailid" placeholder="Mailid"></td>
+                    <td colspan="2"><input type="email" class="mail" name="mailid" id="mailid" placeholder="Mailid" style="width:466px;"></td>
                 </tr>
                 <tr>
-                    <td><input type="password" name="passwd" id="passwd" placeholder="Password"></td>
+                    <td colspan="2"><input type="password" class="mail"  name="passwd" id="passwd" placeholder="Password" style="width:466px;"></td>
                 </tr>
                
             </table>
+            </form>
             <table>
                 <P>Birthday</P>
                 <tr>
@@ -116,16 +118,48 @@
                         </select>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+
+                    </td>
+                    <td>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                     </td>
+                </tr>
+               <tr>
+                   <td></td>
+               </tr>
+            </table>
+     
+            <table>
+                <tr>
+                    <td>
+                     <form action="">
+                         <tr><input type="radio" name="gender" value="male"> Male</tr>
+                         
+                         <tr><input type="radio" name="gender" value="female"> Female</tr>
+                         <tr><input type="radio" name="gender" value="other"> Other</tr>
+                       </form>
+                    </td>
+                </tr>  
+                  
             </table>
             <form class="submits" action="submit.html">
                 <input type="submit" value="submit" />
             </form>
+
         </div>   
         </div>     
         <div class="footer">
 
         </div>
     </div>
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
